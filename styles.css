@@ -12,7 +12,6 @@ ul {
   background-color: rgb(75, 73, 73);
   box-shadow: 0 0.5rem 0.5rem -0.5rem;
   font-size: 1.3rem;
-  font-family: "Righteous", cursive;
 }
 
 li {
@@ -45,7 +44,6 @@ li a {
 }
 
 .name {
-  font-family: "Open Sans", sans-serif;
   color: #17252a;
   font-size: 3.5rem;
 }
@@ -60,7 +58,6 @@ li a {
 }
 
 .myself-title {
-  font-family: "Open Sans", sans-serif;
   color: #9a1750;
 }
 
@@ -73,7 +70,6 @@ li a {
 h1,
 h2 {
   margin: 1rem 0rem 0rem 0rem;
-  font-family: "Patrick Hand", cursive;
   font-size: 3rem;
 }
 
