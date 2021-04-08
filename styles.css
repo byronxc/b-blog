@@ -45,6 +45,10 @@ li a {
     padding: 2rem;
 }
 
+.name {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .myself {
     padding: 2rem;
 }
@@ -93,16 +97,31 @@ iframe {
 
 @media screen and (max-width: 600px) {
     ul {
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+
+    li a {
+        padding: .5rem 1rem 0.5rem 0rem;
     }
     
+    .title {
+        margin-left: 1rem;
+    }
     .intro {
         background-color: rgb(181, 250, 204);
         padding: 2rem;
     }
     
     h1, h2{  
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+    
+    p{
+        font-size: 0.8rem
     }
     
     iframe {
