@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background-color: rgb(212, 211, 211);
-    font-family: sans-serif;
+    background-color: rgb(233, 232, 232);
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -9,29 +9,85 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:rgb(48, 46, 46);
-    box-shadow: 0 0.5rem 1rem -0.5rem;
-    font-size: 1.5rem;
+    background-color: rgb(75, 73, 73);
+    box-shadow: 0 0.5rem 0.5rem -0.5rem;
+    font-size: 1.3rem;
+    font-family: 'Righteous', cursive;
 }
-  
+
+
 li {
     float: left;
 }
-  
+
 li a {
     display: block;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 0.5rem 3rem 0.5rem 3rem;
+    padding: .5rem 1rem 0.5rem 1rem;
     text-decoration: none;
-}
-
-li a:hover {
-    background-color:rgb(0, 172, 143);
-    color:rgb(48, 46, 46);
-    text-decoration: underline;
 }
 
 .menu {
     float: right;
 }
+
+.menu:hover {
+    background-color: rgb(6, 151, 127);
+}
+
+.title:hover {
+    color: rgb(10, 197, 166);
+}
+
+.intro {
+    background-color: rgb(181, 250, 204);
+    padding: 2rem;
+}
+
+.myself {
+    padding: 2rem;
+}
+.sub-intro, .sub-footer, .sub-myself{
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+h1, h2{
+    margin: 1rem 0rem 0rem 0rem;
+    font-family: 'Patrick Hand', cursive;    
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    color:rgb(2, 66, 66);
+}
+
+article {
+    border-bottom: 1px dashed black;
+    margin: 1rem;
+}
+
+article:last-child {
+    border: none;
+    margin: 1rem;
+}
+
+footer {
+    background-color: #e7ca68;
+    padding: 2rem;
+}
+
+iframe {
+    margin: 1rem 0;
+}
+
+.webpages {
+    padding: 3rem 0 0 0;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+}
+
