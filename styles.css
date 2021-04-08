@@ -91,3 +91,22 @@ iframe {
     justify-items: center;
 }
 
+@media screen and (max-width: 600px) {
+    ul {
+        font-size: 1rem;
+    }
+    
+    .intro {
+        background-color: rgb(181, 250, 204);
+        padding: 2rem;
+    }
+    
+    h1, h2{  
+        font-size: 2rem;
+    }
+    
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
