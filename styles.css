@@ -49,7 +49,7 @@ nav li a {
 }
 
 .menu:hover {
-  background-color: #f17975;
+  background-color: rgb(10, 197, 166);
 }
 
 .title:hover {
@@ -74,11 +74,11 @@ nav li a {
 /* Myself Section */
 .myself {
   padding: 2rem;
-  background-color: #f17975;
+  background-color: #ffffff;
 }
 
 .myself-subtitle {
-  color: #ffffff;
+  color: #0a8877;
 }
 
 .myself-title {
@@ -111,7 +111,7 @@ article:last-child {
 
 .myself li:hover {
   transform: rotateZ(4deg);
-  color: #f17975;
+  color: rgb(10, 197, 166);
 }
 
 /* footer Section */
