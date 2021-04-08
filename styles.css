@@ -4,6 +4,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Navigation Bar */
 ul {
   list-style-type: none;
   margin: 0;
@@ -38,6 +39,7 @@ li a {
   color: rgb(10, 197, 166);
 }
 
+/* Intro Section */
 .intro {
   background-color: #3aafa9;
   padding: 2rem;
@@ -52,6 +54,7 @@ li a {
   color: white;
 }
 
+/* Myself Section */
 .myself {
   padding: 2rem;
   background-color: #e3e2df;
@@ -61,12 +64,32 @@ li a {
   color: #9a1750;
 }
 
+/* footer Section */
+footer {
+  background-color: #222629;
+  padding: 0.5rem 0 1rem 0;
+}
+
+.footer-title {
+  color: #86c232;
+  font-size: 2rem;
+}
+
 .sub-intro,
 .sub-footer,
 .sub-myself {
   margin: 0rem 1rem 0rem 1rem;
 }
 
+.webpages {
+  padding: 3rem 0 0 0;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-items: center;
+}
+
+/* universal selectors  */
 h1,
 h2 {
   margin: 1rem 0rem 0rem 0rem;
@@ -90,24 +113,8 @@ article:last-child {
   margin: 1rem;
 }
 
-footer {
-  background-color: #222629;
-  padding: 2rem;
-}
-
-.footer-title {
-  color: #86c232;
-}
 iframe {
   margin: 1rem 0;
-}
-
-.webpages {
-  padding: 3rem 0 0 0;
-  display: grid;
-  grid-auto-flow: column;
-  align-items: center;
-  justify-items: center;
 }
 
 svg {
@@ -151,5 +158,9 @@ svg {
   iframe {
     width: 100%;
     height: 100%;
+  }
+
+  .footer-title {
+    font-size: 1.3rem;
   }
 }
