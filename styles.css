@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h3 {
@@ -27,7 +27,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(75, 73, 73);
+  background-color: rgb(26, 24, 24);
   box-shadow: 0 0.5rem 0.5rem -0.5rem;
   font-size: 1.3rem;
 }
@@ -58,22 +58,30 @@ nav li a {
 
 /* Intro Section */
 .intro {
-  background-color: #3aafa9;
-  padding: 2rem;
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  padding: 3.5rem;
+  background-size: 100%;
+
+}
+
+.intro p {
+  color: white;
 }
 
 .name {
-  color: #1d363f;
+  color: white;
   font-size: 3rem;
 }
 
 .job-position {
-  color: white;
+  color: rgb(121, 244, 253);
 }
 
 /* Myself Section */
 .myself {
-  padding: 2rem;
+  padding: 4rem;
   background-color: #ffffff;
 }
 
@@ -83,16 +91,6 @@ nav li a {
 
 .myself-title {
   color: #1d363f;
-}
-
-article {
-  border-bottom: 1px dashed white;
-  margin: 1rem;
-}
-
-article:last-child {
-  border: none;
-  margin: 1rem;
 }
 
 .myself ul {
@@ -117,7 +115,7 @@ article:last-child {
 /* footer Section */
 footer {
   background-color: #343f49;
-  padding: 0.5rem 0 1rem 0;
+  padding: 2rem;
 }
 
 .footer-title {
@@ -165,7 +163,8 @@ svg {
   }
 
   .intro {
-    padding: 2rem;
+    padding: 0.1rem;
+    background-size: 35rem;
   }
 
   .name {
@@ -189,6 +188,14 @@ svg {
     height: 100%;
   }
 
+  footer {
+    padding: 1rem;
+  }
+
+  .myself {
+    padding: 1rem;
+  }
+
   .myself ul {
     padding: 0.5rem;
     margin: 0.1rem;
@@ -197,5 +204,10 @@ svg {
     padding: 0.5rem;
     font-size: 0.7rem;
     margin: 0.1rem;
+  }
+
+  article {
+    border-bottom: 1px dashed rgb(121, 244, 253);;
+    margin: 1rem;
   }
 }
