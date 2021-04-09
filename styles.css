@@ -59,7 +59,7 @@ nav li a {
 /* Intro Section */
 .intro {
   background-image: 
-  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
   url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   padding: 3.5rem;
   background-size: 100%;
@@ -119,7 +119,7 @@ footer {
 }
 
 .footer-title {
-  color: #86c232;
+  color: rgb(121, 244, 253);
 }
 
 .sub-intro,
