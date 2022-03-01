@@ -9,7 +9,6 @@ body {
 h1,
 h2 {
   margin: 1rem 0rem 0rem 0rem;
-  background-color: #f3ec78;
   background-image: linear-gradient(45deg, #88f1e0, #02312b);
   background-size: 100%;
   -webkit-background-clip: text;
@@ -56,7 +55,7 @@ nav li a {
 .intro {
   display: grid;
   column-gap: 10px;
-  padding: 3.5rem;
+  padding: 6rem;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
@@ -104,15 +103,24 @@ svg {
   transform: rotate(1080deg);
 }
 
-.quote {
-  margin: 0;
-  background: rgb(15, 15, 15);
-  padding: 1em;
-  border-radius: 1em;
+footer {
+  padding: 5em 5em 0.2em 5em;
 }
-.quote figcaption,
-.quote blockquote {
-  margin: 1em;
+.quote {
+  text-align: center;
+  margin: 0;
+  font-size: 3rem;
+  border-radius: 1em;
+  background-image: linear-gradient(45deg, #88f1e0, #02312b);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+figcaption {
+  text-align: right;
+  font-size: 1.5rem;
+  color:rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 600px) {
