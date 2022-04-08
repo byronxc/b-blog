@@ -1,38 +1,38 @@
 body {
   margin: 0;
-  background-color: black;
+  background-color: rgb(233, 232, 232);
   font-family: "Open Sans", sans-serif;
-  color: white;
 }
 
 /* universal selectors  */
-h1,
-h2 {
+h1 {
   margin: 1rem 0rem 0rem 0rem;
-  background-color: #f3ec78;
-  background-image: linear-gradient(45deg, #88f1e0, #02312b);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: -10px;
-  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.8rem;
 }
 
 h3 {
-  color: rgb(161, 167, 165);
+  font-family: "Comfortaa", cursive;
+  margin: 0;
+  font-size: 1.4rem;
+  display: inline-block;
+  vertical-align: top;
 }
 
 /* Navigation Bar */
 
 nav ul {
   position: fixed;
-  top: 0;
+  top: 0; 
   width: 100%;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-
+  background-color: rgb(26, 24, 24);
+  box-shadow: 0 0.5rem 0.5rem -0.5rem;
   font-size: 1.3rem;
 }
 
@@ -52,30 +52,81 @@ nav li a {
   float: right;
 }
 
+.menu:hover {
+  background-color: rgb(10, 197, 166);
+}
+
+.title:hover {
+  color: rgb(10, 197, 166);
+}
+
 /* Intro Section */
 .intro {
-  display: grid;
-  column-gap: 10px;
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   padding: 3.5rem;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.intro img {
-  width: 100%;
-  height: auto;
+.intro p {
+  color: white;
 }
 
-/* Education Section */
-.education {
-  font-size: 1.5rem;
-  background: rgb(15, 15, 15);
-  border-radius: 1em;
+.name {
+  color: white;
+  font-size: 3rem;
 }
 
-/* Footer Section */
-footer {
+.job-position {
+  color: rgb(121, 244, 253);
+}
+
+/* Myself Section */
+.myself {
+  padding: 4rem;
+  background-color: #ffffff;
+}
+
+.myself-subtitle {
+  color: #0a8877;
+}
+
+.myself-title {
+  color: #1d363f;
+}
+
+.myself ul {
+  list-style: none;
+}
+
+.myself li {
+  background-color: rgb(0, 0, 0);
   padding: 0.5rem;
+  border-radius: 1rem;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  display: inline-grid;
+  margin: 1rem;
+}
+
+.myself li:hover {
+  transform: rotateZ(4deg);
+  color: rgb(10, 197, 166);
+}
+
+/* footer Section */
+footer {
+  background-color: #343f49;
+  padding: 0.5rem;
+}
+
+.footer-title {
+  color: rgb(121, 244, 253);
 }
 
 .sub-intro,
@@ -104,18 +155,20 @@ svg {
   transform: rotate(1080deg);
 }
 
-.quote {
-  margin: 0;
-  background: rgb(15, 15, 15);
-  padding: 1em;
-  border-radius: 1em;
-}
-.quote figcaption,
-.quote blockquote {
-  margin: 1em;
-}
-
 @media screen and (max-width: 600px) {
+  ul {
+    font-size: 0.8rem;
+  }
+
+  li a {
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  .title {
+    margin-left: 1rem;
+  }
+
   .intro {
     padding: 0.1rem;
     background-size: 35rem;
@@ -135,5 +188,33 @@ svg {
 
   p {
     font-size: 0.8rem;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  footer {
+    padding: 1rem;
+  }
+
+  .myself {
+    padding: 1rem;
+  }
+
+  .myself ul {
+    padding: 0.5rem;
+    margin: 0.1rem;
+  }
+  .myself li {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    margin: 0.1rem;
+  }
+
+  article {
+    border-bottom: 1px dashed rgb(121, 244, 253);;
+    margin: 1rem;
   }
 }
